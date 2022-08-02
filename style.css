@@ -10,7 +10,7 @@ header {
 .caixa {
 	position: relative;
 	width: 940px;
-	margin: 0 auto;
+	margin:  auto;
 }
 
 nav {
@@ -99,7 +99,7 @@ main {
 }
 
 form {
-	margin: 40px 0;
+	margin:40px 15%;
 }
 
 form label, form legend {
@@ -109,12 +109,18 @@ form label, form legend {
 }
 
 .input-padrao {
-	display: block;
-	margin: 0 0 20px;
-	padding: 10px 25px;
-	width: 50%;
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+    cursor: pointer;
 }
 
+.input-radio {
+    margin-right: 5px;
+    cursor: pointer;
+
+}	
 .checkbox {
 	margin: 20px 0;
 }
@@ -138,7 +144,7 @@ form label, form legend {
 }
 
 table {
-	margin: 20px 0 40px;
+	margin: 20px 0 40px 22%;
 }
 
 thead {
@@ -153,7 +159,6 @@ td, th {
 }
 
 
-/* css da página inicial */
 .banner {
 	width:100%;
 }
